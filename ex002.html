@@ -1,0 +1,16 @@
+<body>
+    <h2>O que o JavaScript pode fazer?</h2>
+    <p>JavaScript pode mudar o valor de um atributo HTML</p>
+    <p>Nesse caso o JavaScript muda o valor do Atributo "src" (source) de uma imagem</p>
+
+    <img id="myImage" alt="Lampada" src=    "apagada.jpg">
+    <br>
+
+    <button onclick="document.getElementById('myImage').src='acesa.jpg'">
+        Ligar a Luz
+    </button>
+
+    <button onclick="document.getElementById('myImage').src='apagada.jpg'">
+        Desligar a Luz
+    </button>
+</body>
